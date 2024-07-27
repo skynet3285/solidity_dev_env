@@ -15,6 +15,7 @@ const config: HardhatUserConfig = {
         process.env.SUNNYVALE_PRIVAT_03 as string,
         process.env.SUNNYVALE_PRIVAT_04 as string,
       ],
+      chainId: Number(process.env.SUNNYVALE_CHAINID as string),
     },
   },
 };
