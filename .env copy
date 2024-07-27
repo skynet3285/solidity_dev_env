@@ -1,0 +1,6 @@
+# Description: Environment variables for Sunnyvale Private Network
+SUNNYVALE_RPCURL=''
+SUNNYVALE_PRIVAT_01='0x'
+SUNNYVALE_PRIVAT_02='0x'
+SUNNYVALE_PRIVAT_03='0x'
+SUNNYVALE_PRIVAT_04='0x'

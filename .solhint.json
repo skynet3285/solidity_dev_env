@@ -1,0 +1,16 @@
+{
+  "extends": ["solhint:recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "func-visibility": ["error", {"ignoreConstructors": true}],
+    "avoid-suicide": "error",
+    "avoid-sha3": "warn",
+    "reason-string": ["warn", {"maxLength": 64}]
+  }
+}
