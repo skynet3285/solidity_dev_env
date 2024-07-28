@@ -7,7 +7,7 @@ async function main() {
   console.log('Deploying contracts with the account:', deployer.address);
 
   // 2. 배포할 스마트 계약 가져오기
-  const ContractFactory = await ethers.getContractFactory('Fundrasing');
+  const ContractFactory = await ethers.getContractFactory('Fundraising');
 
   // 3. 스마트 계약 배포
   const contract = await ContractFactory.deploy(
