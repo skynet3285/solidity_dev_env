@@ -18,7 +18,7 @@ async function main() {
   await contract.waitForDeployment();
 
   // 5. 배포된 계약 주소 출력
-  console.log('Contract deployed to:', contract.getAddress());
+  console.log('Contract deployed to:', await contract.getAddress());
 }
 
 main()
